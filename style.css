@@ -1,0 +1,388 @@
+:root {
+  --main: #042940;
+  --sekon: #404040;
+  --aksen: #a0bf30;
+}
+
+/* Navbar Section */
+.jago {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.putih {
+  color: #fff;
+}
+
+.ikinavbar {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+}
+
+/* Hero Section */
+#Hero {
+  color: #fff;
+}
+
+.head {
+  font-size: 43px;
+}
+
+.ikijum {
+  min-height: 700px;
+}
+
+.ikifoto {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  margin-top: 4rem;
+}
+
+.cv {
+  color: #fff;
+  cursor: poiter;
+  font-size: 1.1rem;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.color-aksen {
+  color: var(--aksen);
+}
+
+.under {
+  text-decoration-line: underline;
+  text-decoration-style: "solid";
+  text-decoration-color: rgba(160, 191, 48, 0.82);
+  text-decoration-thickness: 4px;
+}
+
+/* About Section */
+
+#About {
+  background-color: var(--sekon);
+  color: #fff;
+  min-height: 500px;
+}
+
+.ikiicon {
+  height: 2rem;
+  margin: 1rem;
+}
+
+.ikiicon2 {
+  height: 5rem;
+  border-radius: 50%;
+}
+
+/* Projek 1 Section */
+#Projek1 {
+  background-color: var(--sekon);
+  color: #fff;
+}
+
+.ikicard {
+  background-color: var(--main);
+}
+
+.btn.ikicb {
+  background-color: var(--aksen);
+  color: var(--main);
+}
+
+/* About 2 Section */
+
+#About2 {
+  color: #fff;
+  min-height: 500px;
+}
+
+/* Projek 2 Section */
+#Projek2 {
+  color: #fff;
+}
+
+.ikicard2 {
+  background-color: var(--sekon);
+}
+
+/* Quotes Section */
+.accordion-button.ikibackground {
+  background-color: var(--aksen);
+  color: var(--main);
+}
+
+.ikibackground2 {
+  background-color: var(--sekon);
+  color: #fff;
+}
+
+.ikiquotes {
+  border-radius: 35px;
+  background: var(--sekon);
+  box-shadow: 7px 7px 14px #1e1e1e, -7px -7px 14px #626262;
+  padding: 7px;
+}
+
+.ikitopik {
+  background-color: var(--sekon);
+}
+
+/* Tentang */
+#Tentang {
+  background-color: var(--sekon);
+}
+
+/* Quotes */
+#Quotes {
+  background-color: var(--sekon);
+  color: #fff;
+  min-height: 500px;
+}
+
+/* Footer */
+#Footer {
+  background-color: var(--main);
+  color: #fff;
+  min-height: 400px;
+  width: 100%;
+}
+
+#Gambar {
+  max-height: 350px;
+  margin-top: 3rem;
+}
+
+.wow {
+  font-size: 10px;
+}
+
+/* Sumber Luar */
+.cssbuttons-io-button {
+  background: var(--aksen);
+  color: black;
+  font-family: "Barlow Condensed", sans-serif;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+/* Sumber Luar 2 */
+/* From uiverse.io by @EmmaxPlay */
+.butn {
+  padding: 0.9em 1.6em;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+}
+
+.butn::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--sekon);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+/* glow */
+.butn::before {
+  content: "";
+  background: linear-gradient(45deg, #ff0000, #002bff, #ff00c8, #002bff, #ff0000, #002bff, #ff00c8, #002bff);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* hover */
+.butn:hover::before {
+  opacity: 1;
+}
+
+.butn:active:after {
+  background: transparent;
+}
+
+.butn:active {
+  color: #000;
+  font-weight: bold;
+}
+
+/* Navbar */
+/* From uiverse.io by @Ali-Tahmazi99 */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  display: none;
+  visibility: hidden;
+}
+
+.bar {
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 40px;
+}
+
+.bar span {
+  position: absolute;
+  width: 45px;
+  height: 7px;
+  background: #f1faee;
+  border-radius: 100px;
+  display: inline-block;
+  transition: 0.3s ease;
+  left: 0;
+}
+
+.bar span.top {
+  top: 0;
+}
+
+.bar span.middle {
+  top: 17px;
+}
+
+.bar span.bottom {
+  bottom: 0;
+}
+
+input[type]:checked ~ span.top {
+  transform: rotate(45deg);
+  transform-origin: top left;
+  width: 48px;
+  left: 5px;
+}
+
+input[type]:checked ~ span.bottom {
+  transform: rotate(-45deg);
+  transform-origin: top left;
+  width: 48px;
+  bottom: -1px;
+  box-shadow: 0 0 10px #495057;
+}
+
+input[type]:checked ~ span.middle {
+  transform: translateX(-20px);
+  opacity: 0;
+}
+
+/* From uiverse.io by @SantiagoBoS */
+.card9 {
+  width: 250px;
+  height: 300px;
+  background: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.card9:hover {
+  width: 250px;
+  height: 300px;
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(200, 200, 200);
+  border-radius: 20px;
+  background-color: #dfdfdf;
+  transition: all 0.5s;
+}
+
+.secondAnimation {
+  --hoverContorno: #959595;
+}
+
+.secondAnimation:hover,
+.secondAnimation:focus {
+  -webkit-animation: cardAnimacion 1.4s;
+  animation: cardAnimacion 1.4s;
+  box-shadow: 0 0 0 0.8em rgba(255, 255, 255, 0);
+  border-radius: 20px;
+}
+
+@-webkit-keyframes cardAnimacion {
+  0% {
+    box-shadow: 0 0 0 0 var(--hoverContorno);
+  }
+}
+
+@keyframes cardAnimacion {
+  0% {
+    box-shadow: 0 0 0 0 var(--hoverContorno);
+  }
+}

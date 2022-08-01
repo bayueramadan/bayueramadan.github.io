@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+   <meta charset="UTF-8">
+   <title>Cv Online</title>
+   <style>
+      @keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #3E1E68;
+    overflow: hidden;
+    
+}
+
+.background span {
+    width: 15vmin;
+    height: 15vmin;
+    border-radius: 15vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 41;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.background span:nth-child(0) {
+    color: #583C87;
+    top: 77%;
+    left: 42%;
+    animation-duration: 44s;
+    animation-delay: -24s;
+    transform-origin: -8vw 17vh;
+    box-shadow: -30vmin 0 3.9259655091310757vmin currentColor;
+}
+.background span:nth-child(1) {
+    color: #E45A84;
+    top: 68%;
+    left: 40%;
+    animation-duration: 41s;
+    animation-delay: -57s;
+    transform-origin: -16vw 25vh;
+    box-shadow: -30vmin 0 4.7146588722982665vmin currentColor;
+}
+.background span:nth-child(2) {
+    color: #FFACAC;
+    top: 57%;
+    left: 79%;
+    animation-duration: 85s;
+    animation-delay: -79s;
+    transform-origin: 22vw -14vh;
+    box-shadow: -30vmin 0 4.44909994677711vmin currentColor;
+}
+.background span:nth-child(3) {
+    color: #FFACAC;
+    top: 89%;
+    left: 60%;
+    animation-duration: 13s;
+    animation-delay: -78s;
+    transform-origin: -13vw 5vh;
+    box-shadow: -30vmin 0 3.932771988058637vmin currentColor;
+}
+.background span:nth-child(4) {
+    color: #FFACAC;
+    top: 46%;
+    left: 5%;
+    animation-duration: 32s;
+    animation-delay: -69s;
+    transform-origin: -8vw 20vh;
+    box-shadow: -30vmin 0 3.888680884616573vmin currentColor;
+}
+.background span:nth-child(5) {
+    color: #583C87;
+    top: 72%;
+    left: 12%;
+    animation-duration: 35s;
+    animation-delay: -72s;
+    transform-origin: -2vw -3vh;
+    box-shadow: -30vmin 0 4.552050330748191vmin currentColor;
+}
+.background span:nth-child(6) {
+    color: #E45A84;
+    top: 59%;
+    left: 51%;
+    animation-duration: 70s;
+    animation-delay: -21s;
+    transform-origin: -9vw 25vh;
+    box-shadow: 30vmin 0 4.057318328064355vmin currentColor;
+}
+.background span:nth-child(7) {
+    color: #583C87;
+    top: 65%;
+    left: 99%;
+    animation-duration: 78s;
+    animation-delay: -1s;
+    transform-origin: 20vw -7vh;
+    box-shadow: -30vmin 0 4.085416187306995vmin currentColor;
+}
+.background span:nth-child(8) {
+    color: #E45A84;
+    top: 40%;
+    left: 9%;
+    animation-duration: 49s;
+    animation-delay: -58s;
+    transform-origin: 21vw -10vh;
+    box-shadow: -30vmin 0 4.229801755622649vmin currentColor;
+}
+.background span:nth-child(9) {
+    color: #FFACAC;
+    top: 72%;
+    left: 33%;
+    animation-duration: 68s;
+    animation-delay: -28s;
+    transform-origin: 23vw -15vh;
+    box-shadow: -30vmin 0 4.374935896702537vmin currentColor;
+}
+.background span:nth-child(10) {
+    color: #583C87;
+    top: 3%;
+    left: 9%;
+    animation-duration: 94s;
+    animation-delay: -90s;
+    transform-origin: -2vw 10vh;
+    box-shadow: -30vmin 0 3.964919918315756vmin currentColor;
+}
+.background span:nth-child(11) {
+    color: #E45A84;
+    top: 6%;
+    left: 52%;
+    animation-duration: 59s;
+    animation-delay: -31s;
+    transform-origin: 11vw 5vh;
+    box-shadow: 30vmin 0 3.8863445535271155vmin currentColor;
+}
+.background span:nth-child(12) {
+    color: #FFACAC;
+    top: 28%;
+    left: 48%;
+    animation-duration: 53s;
+    animation-delay: -21s;
+    transform-origin: 23vw -11vh;
+    box-shadow: 30vmin 0 4.38377989291195vmin currentColor;
+}
+.background span:nth-child(13) {
+    color: #FFACAC;
+    top: 9%;
+    left: 39%;
+    animation-duration: 48s;
+    animation-delay: -65s;
+    transform-origin: 2vw -13vh;
+    box-shadow: 30vmin 0 4.014378067875175vmin currentColor;
+}
+.background span:nth-child(14) {
+    color: #583C87;
+    top: 58%;
+    left: 42%;
+    animation-duration: 11s;
+    animation-delay: -42s;
+    transform-origin: 0vw 14vh;
+    box-shadow: 30vmin 0 3.8723088092021714vmin currentColor;
+}
+.background span:nth-child(15) {
+    color: #583C87;
+    top: 26%;
+    left: 62%;
+    animation-duration: 86s;
+    animation-delay: -10s;
+    transform-origin: -14vw -22vh;
+    box-shadow: 30vmin 0 4.601338849238575vmin currentColor;
+}
+
+.isi {
+   background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+display: block;
+justify-content: center;
+align-items: center;
+min-height: 500px;
+}
+
+.ikon{
+padding: 10px;
+justify-content: center;
+align-items: center;
+   
+}
+
+h3 {
+   padding-right:10px;
+   padding-left: 10px;
+   font-family: monospace;
+}
+
+h2 {
+   padding-right:10px;
+   padding-left: 10px;
+   font-family: monospace;
+}
+
+p {
+   padding-right:10px;
+   padding-left: 10px;
+   font-family: monospace;
+   color: #ceff55;
+}
+
+   </style>
+</head>
+<body>
+   <div class="background">
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+</div>
+
+<div class="isi">
+   
+   <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_ghs9bkkc.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay class="ikon"></lottie-player>
+   <br>
+   <h3>Halaman ini sedang dalam proses desain</h3>
+   <h2>Harap Bersabar</h2>
+   <p>Design By Bayu Erfan Ramadani</p>
+</div>
+
+
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
