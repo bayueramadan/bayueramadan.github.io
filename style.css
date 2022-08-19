@@ -1,7 +1,7 @@
 :root {
   --main: #042940;
   --sekon: #404040;
-  --aksen: #a0bf30;
+  --aksen: #f2cb05;
 }
 
 /* Navbar Section */
@@ -70,6 +70,11 @@
 .ikiicon {
   height: 2rem;
   margin: 1rem;
+}
+
+#Skill img:hover {
+  transform: scale(1.3) translateY(-3px);
+  cursor: pointer;
 }
 
 .ikiicon2 {
@@ -157,6 +162,10 @@
 
 .wow {
   font-size: 10px;
+}
+
+.Sosmed a img:hover {
+  transform: scale(1.3) translateY(-3px);
 }
 
 /* Sumber Luar */
@@ -345,44 +354,166 @@ input[type]:checked ~ span.middle {
 }
 
 /* From uiverse.io by @SantiagoBoS */
+/* From uiverse.io by @gagan-gv */
 .card9 {
-  width: 250px;
-  height: 300px;
-  background: rgb(0, 0, 0);
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: 20px;
-}
-
-.card9:hover {
-  width: 250px;
-  height: 300px;
-  background: rgb(255, 255, 255);
-  border: 2px solid rgb(200, 200, 200);
-  border-radius: 20px;
-  background-color: #dfdfdf;
+  width: 190px;
+  height: 254px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
   transition: all 0.5s;
 }
 
-.secondAnimation {
-  --hoverContorno: #959595;
+.card9:hover {
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
+  background-color: #4bb8ff;
 }
 
-.secondAnimation:hover,
-.secondAnimation:focus {
-  -webkit-animation: cardAnimacion 1.4s;
-  animation: cardAnimacion 1.4s;
-  box-shadow: 0 0 0 0.8em rgba(255, 255, 255, 0);
-  border-radius: 20px;
+.card9 .blob {
+  height: 10px;
+  width: 75%;
+  border-radius: 0 0 30px 30px;
+  margin: 0 auto;
+  background-color: #4bb8ff;
+  visibility: visible;
+  transition: all 0.3s;
 }
 
-@-webkit-keyframes cardAnimacion {
+.card9:hover .blob {
+  height: 0;
+}
+
+.card9 .img {
+  display: flex;
+  margin: 30px auto 10px auto;
+  width: 70px;
+  height: 70px;
+  background-color: #4bb8ff;
+  border-radius: 50%;
+  font-size: 11px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.card9:hover .img {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px 0 0;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  z-index: 99999;
+}
+
+.card9 h2 {
+  padding: 15px 10px;
+  font-size: 25px;
+  transition: all 0.1s;
+  z-index: -99;
+  line-height: 17px;
+}
+
+.card9 span {
+  font-size: 18px;
+}
+
+.card9:hover h2 {
+  opacity: 0;
+  width: 100%;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.card9 > p {
+  opacity: 0;
+  transition: all 0.75s;
+}
+
+.card9 > p > svg {
+  padding: 5px;
+}
+
+.card9:hover > p {
+  position: absolute;
+  bottom: 15px;
+  left: 35px;
+  opacity: 1;
+  transition: all 0.1s;
+}
+
+/* Button Minat */
+/* From uiverse.io by @abrahamcalsin */
+.Minat {
+  /*
+  max-height: 40px;
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  background: var(--sekon);
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none; */
+  position: relative;
+  display: inline-flex;
+  margin-bottom: 0.5rem;
+  max-height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: var(--sekon);
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
+}
+
+.Minat:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: var(--aksen);
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+.Minat:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.Minat span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+.Minat:hover span {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
   0% {
-    box-shadow: 0 0 0 0 var(--hoverContorno);
+    transform: scale(1);
   }
-}
 
-@keyframes cardAnimacion {
-  0% {
-    box-shadow: 0 0 0 0 var(--hoverContorno);
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
   }
 }
