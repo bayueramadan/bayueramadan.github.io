@@ -444,25 +444,13 @@ input[type]:checked ~ span.middle {
 /* Button Minat */
 /* From uiverse.io by @abrahamcalsin */
 .Minat {
-  /*
-  max-height: 40px;
-  position: relative;
-  display: inline-block;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
-  background: var(--sekon);
-  font-family: "Montserrat", sans-serif;
-  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  border: none; */
   position: relative;
   display: inline-flex;
   margin-bottom: 0.5rem;
   max-height: 40px;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 13px;
   background: var(--sekon);
   font-family: "Montserrat", sans-serif;
   box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
@@ -500,7 +488,7 @@ input[type]:checked ~ span.middle {
 }
 
 .Minat:hover span {
-  color: #183153;
+  color: black;
   animation: scaleUp 0.3s ease-in-out;
 }
 
