@@ -1,0 +1,5 @@
+Rencana perubahan website:
+1. Perubahan dari bootstrap ke Tailwind
+2. Pengembangan website baru untuk kebutuhan portofolio
+3. Mengintegrasikan Wordpress
+4. Diupload ke domain sendiri
